@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Sniffari scent foraging toy">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#fbf7ee"/>
+      <stop offset="100%" stop-color="#eee7d7"/>
+    </radialGradient>
+    <linearGradient id="moss" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#9db38e"/>
+      <stop offset="55%" stop-color="#6f8a68"/>
+      <stop offset="100%" stop-color="#49654d"/>
+    </linearGradient>
+    <linearGradient id="bumper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf6e9"/>
+      <stop offset="100%" stop-color="#d9cdb4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <pattern id="felt" width="46" height="42" patternUnits="userSpaceOnUse">
+      <g fill="#ffffff" opacity="0.13">
+        <path d="M4 34 C -2 24 2 8 12 2 C 19 10 18 25 10 36 Z"/>
+        <path d="M27 41 C 21 30 25 15 35 9 C 42 18 40 32 33 42 Z"/>
+      </g>
+      <g fill="#173d33" opacity="0.1">
+        <path d="M22 25 C 16 15 20 1 30 -5 C 37 4 35 18 28 27 Z"/>
+      </g>
+    </pattern>
+    <clipPath id="domeClip">
+      <path d="M170 548 C170 402 288 302 450 302 C612 302 730 402 730 548 C730 634 610 692 450 692 C290 692 170 634 170 548 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <circle cx="450" cy="440" r="330" fill="#ffffff" opacity="0.35"/>
+
+  <ellipse cx="452" cy="722" rx="262" ry="34" fill="#37503f" opacity="0.18" filter="url(#soft)"/>
+
+  <!-- cream rubber bumper -->
+  <path d="M166 556 C166 660 292 722 450 722 C608 722 734 660 734 556 L734 586 C734 682 610 742 450 742 C290 742 166 682 166 586 Z" fill="url(#bumper)"/>
+  <path d="M166 556 C166 660 292 722 450 722 C608 722 734 660 734 556 C734 646 606 700 450 700 C294 700 166 646 166 556 Z" fill="#fdf9ef"/>
+
+  <!-- moss dome -->
+  <path d="M170 548 C170 402 288 302 450 302 C612 302 730 402 730 548 C730 634 610 692 450 692 C290 692 170 634 170 548 Z" fill="url(#moss)"/>
+  <g clip-path="url(#domeClip)">
+    <rect x="160" y="290" width="580" height="420" fill="url(#felt)"/>
+    <ellipse cx="400" cy="380" rx="250" ry="150" fill="url(#glow)"/>
+    <ellipse cx="610" cy="690" rx="230" ry="120" fill="#24422f" opacity="0.22"/>
+
+    <!-- hidden treat pockets -->
+    <g>
+      <ellipse cx="332" cy="436" rx="43" ry="32" fill="#314b38" opacity="0.85" transform="rotate(-14 332 436)"/>
+      <ellipse cx="326" cy="430" rx="22" ry="15" fill="#e8c98d" transform="rotate(-14 326 430)"/>
+      <ellipse cx="322" cy="426" rx="11" ry="7" fill="#f6e3ba" transform="rotate(-14 322 426)"/>
+    </g>
+    <g>
+      <ellipse cx="520" cy="398" rx="38" ry="28" fill="#314b38" opacity="0.8" transform="rotate(12 520 398)"/>
+      <ellipse cx="524" cy="393" rx="19" ry="13" fill="#ddb87b" transform="rotate(12 524 393)"/>
+    </g>
+    <g>
+      <ellipse cx="596" cy="516" rx="42" ry="30" fill="#314b38" opacity="0.85" transform="rotate(-8 596 516)"/>
+      <ellipse cx="592" cy="510" rx="20" ry="13" fill="#e8c98d" transform="rotate(-8 592 510)"/>
+      <ellipse cx="589" cy="507" rx="9" ry="6" fill="#f6e3ba" transform="rotate(-8 589 507)"/>
+    </g>
+      <g>
+      <ellipse cx="386" cy="582" rx="40" ry="29" fill="#314b38" opacity="0.8" transform="rotate(16 386 582)"/>
+      <ellipse cx="390" cy="577" rx="18" ry="12" fill="#ddb87b" transform="rotate(16 390 577)"/>
+    </g>
+    <g>
+      <ellipse cx="474" cy="500" rx="36" ry="26" fill="#314b38" opacity="0.75"/>
+      <ellipse cx="474" cy="496" rx="16" ry="11" fill="#e8c98d"/>
+    </g>
+
+    <!-- plush tufts around the pockets -->
+    <g fill="#ffffff" opacity="0.12">
+      <path d="M242 470 C232 448 240 420 258 410 C270 428 267 453 252 472 Z"/>
+      <path d="M280 340 C270 318 278 292 296 282 C308 300 305 325 290 342 Z"/>
+      <path d="M430 330 C420 308 428 282 446 272 C458 290 455 315 440 332 Z"/>
+      <path d="M640 440 C630 418 638 392 656 382 C668 400 665 425 650 442 Z"/>
+      <path d="M660 580 C650 558 658 532 676 522 C688 540 685 565 670 582 Z"/>
+      <path d="M300 640 C290 618 298 592 316 582 C328 600 325 625 310 642 Z"/>
+      <path d="M500 640 C490 618 498 592 516 582 C528 600 525 625 510 642 Z"/>
+    </g>
+  </g>
+
+  <!-- rim highlight -->
+  <path d="M170 548 C170 402 288 302 450 302 C612 302 730 402 730 548" fill="none" stroke="#c8d6bd" stroke-opacity="0.5" stroke-width="5"/>
+
+  <!-- status light -->
+  <circle cx="450" cy="668" r="9" fill="#284132"/>
+  <circle cx="450" cy="668" r="5" fill="#f4c67d"/>
+  <circle cx="450" cy="668" r="12" fill="#f4c67d" opacity="0.18"/>
+
+  <!-- label tag -->
+  <g transform="translate(450 748)">
+    <rect x="-86" y="-22" width="172" height="40" rx="20" fill="#173d33"/>
+    <text x="0" y="4" text-anchor="middle" font-family="DM Sans, Arial, sans-serif" font-size="17" letter-spacing="3" fill="#f7f1e3">SNIFFARI</text>
+  </g>
+</svg>

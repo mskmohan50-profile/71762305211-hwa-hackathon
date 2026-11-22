@@ -1,0 +1,630 @@
+[
+  {
+    "id": "HWA-2026-82396",
+    "orderNumber": "HWA-2026-82396",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T13:25:52.491Z",
+    "estimatedDelivery": "2026-11-27T13:25:52.491Z",
+    "email": "",
+    "customer": {
+      "firstName": "",
+      "lastName": "",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "",
+      "line2": "",
+      "city": "",
+      "state": "",
+      "postalCode": "",
+      "country": "United States"
+    },
+    "shippingMethod": "standard",
+    "items": [],
+    "totals": {
+      "subtotal": 0,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 0,
+      "total": 0
+    },
+    "subtotal": 0,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 0,
+    "total": 0,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T13:25:52.491Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-32564",
+    "orderNumber": "HWA-2026-32564",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T13:26:21.565Z",
+    "estimatedDelivery": "2026-11-27T13:26:21.565Z",
+    "email": "test@example.com",
+    "customer": {
+      "firstName": "",
+      "lastName": "",
+      "name": "Test Buyer",
+      "email": "test@example.com",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "1 Test St",
+      "line2": "",
+      "city": "Portland",
+      "state": "",
+      "postalCode": "97201",
+      "country": "United States"
+    },
+    "shippingMethod": "standard",
+    "items": [
+      {
+        "id": "sniffari",
+        "name": "Sniffari",
+        "variant": "Original · Moss",
+        "price": 149,
+        "quantity": 1,
+        "lineTotal": 149
+      }
+    ],
+    "totals": {
+      "subtotal": 149,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 11.92,
+      "total": 160.92
+    },
+    "subtotal": 149,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 11.92,
+    "total": 160.92,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T13:26:21.565Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-59643",
+    "orderNumber": "HWA-2026-59643",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T13:26:35.403Z",
+    "estimatedDelivery": "2026-11-27T13:26:35.403Z",
+    "email": "",
+    "customer": {
+      "firstName": "",
+      "lastName": "",
+      "name": "",
+      "email": "",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "",
+      "line2": "",
+      "city": "",
+      "state": "",
+      "postalCode": "",
+      "country": "United States"
+    },
+    "shippingMethod": "standard",
+    "items": [],
+    "totals": {
+      "subtotal": 0,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 0,
+      "total": 0
+    },
+    "subtotal": 0,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 0,
+    "total": 0,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T13:26:35.403Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-32880",
+    "orderNumber": "HWA-2026-32880",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T14:00:04.958Z",
+    "estimatedDelivery": "2026-11-27T14:00:04.958Z",
+    "email": "shopper@example.com",
+    "customer": {
+      "firstName": "Jamie",
+      "lastName": "Morgan",
+      "name": "Jamie Morgan",
+      "email": "shopper@example.com",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "42 Cedar Lane",
+      "line2": "",
+      "city": "Portland",
+      "state": "OR",
+      "postalCode": "97201",
+      "country": "United States"
+    },
+    "shippingMethod": "Standard delivery",
+    "items": [
+      {
+        "id": "sniffari",
+        "key": "sniffari-original-moss",
+        "name": "Sniffari",
+        "variant": "Original · Moss",
+        "price": 149,
+        "quantity": 1,
+        "lineTotal": 149,
+        "image": "/images/sniffari.svg"
+      }
+    ],
+    "totals": {
+      "subtotal": 149,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 11.92,
+      "total": 160.92
+    },
+    "subtotal": 149,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 11.92,
+    "total": 160.92,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T14:00:04.958Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-34649",
+    "orderNumber": "HWA-2026-34649",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T14:33:32.492Z",
+    "estimatedDelivery": "2026-11-24T14:33:32.492Z",
+    "email": "shopper@example.com",
+    "customer": {
+      "firstName": "Jamie",
+      "lastName": "Morgan",
+      "name": "Jamie Morgan",
+      "email": "shopper@example.com",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "42 Cedar Lane",
+      "line2": "",
+      "city": "Portland",
+      "state": "OR",
+      "postalCode": "97201",
+      "country": "United States"
+    },
+    "shippingMethod": "Express delivery",
+    "items": [
+      {
+        "id": "sniffari",
+        "key": "sniffari-original-moss",
+        "name": "Sniffari",
+        "variant": "Original · Moss",
+        "price": 149,
+        "quantity": 1,
+        "lineTotal": 149,
+        "image": "/images/sniffari-real.jpg"
+      },
+      {
+        "id": "sniffari",
+        "key": "sniffari-mini-slate",
+        "name": "Sniffari",
+        "variant": "Mini · Slate",
+        "price": 129,
+        "quantity": 2,
+        "lineTotal": 258,
+        "image": "/images/sniffari-real.jpg"
+      },
+      {
+        "id": "refill",
+        "key": "refill",
+        "name": "Botanical Scent Refill",
+        "variant": "",
+        "price": 18,
+        "quantity": 1,
+        "lineTotal": 18,
+        "image": "/images/dog-food.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 425,
+      "discount": 0,
+      "shipping": 12,
+      "tax": 34,
+      "total": 471
+    },
+    "subtotal": 425,
+    "discount": 0,
+    "shipping": 12,
+    "tax": 34,
+    "total": 471,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T14:33:32.492Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-68026",
+    "orderNumber": "HWA-2026-68026",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T14:35:31.615Z",
+    "estimatedDelivery": "2026-11-24T14:35:31.615Z",
+    "email": "shopper@example.com",
+    "customer": {
+      "firstName": "Jamie",
+      "lastName": "Morgan",
+      "name": "Jamie Morgan",
+      "email": "shopper@example.com",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "42 Cedar Lane",
+      "line2": "",
+      "city": "Portland",
+      "state": "OR",
+      "postalCode": "97201",
+      "country": "United States"
+    },
+    "shippingMethod": "Express delivery",
+    "items": [
+      {
+        "id": "sniffari",
+        "key": "sniffari-original-moss",
+        "name": "Sniffari",
+        "variant": "Original · Moss",
+        "price": 149,
+        "quantity": 1,
+        "lineTotal": 149,
+        "image": "/images/sniffari-real.jpg"
+      },
+      {
+        "id": "sniffari",
+        "key": "sniffari-mini-slate",
+        "name": "Sniffari",
+        "variant": "Mini · Slate",
+        "price": 129,
+        "quantity": 2,
+        "lineTotal": 258,
+        "image": "/images/sniffari-real.jpg"
+      },
+      {
+        "id": "refill",
+        "key": "refill",
+        "name": "Botanical Scent Refill",
+        "variant": "",
+        "price": 18,
+        "quantity": 1,
+        "lineTotal": 18,
+        "image": "/images/dog-food.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 425,
+      "discount": 0,
+      "shipping": 12,
+      "tax": 34,
+      "total": 471
+    },
+    "subtotal": 425,
+    "discount": 0,
+    "shipping": 12,
+    "tax": 34,
+    "total": 471,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T14:35:31.615Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-52827",
+    "orderNumber": "HWA-2026-52827",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T14:55:41.462Z",
+    "estimatedDelivery": "2026-11-24T14:55:41.462Z",
+    "email": "shopper@example.com",
+    "customer": {
+      "firstName": "Ananya",
+      "lastName": "Sharma",
+      "name": "Ananya Sharma",
+      "email": "shopper@example.com",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "12, 4th Cross, Indiranagar",
+      "line2": "",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560038",
+      "country": "India"
+    },
+    "shippingMethod": "Express delivery",
+    "items": [
+      {
+        "id": "sniffari",
+        "key": "sniffari-original-moss",
+        "name": "Sniffari",
+        "variant": "Original · Moss",
+        "price": 5999,
+        "quantity": 1,
+        "lineTotal": 5999,
+        "image": "/images/sniffari-real.jpg"
+      },
+      {
+        "id": "sniffari",
+        "key": "sniffari-mini-slate",
+        "name": "Sniffari",
+        "variant": "Mini · Slate",
+        "price": 4999,
+        "quantity": 2,
+        "lineTotal": 9998,
+        "image": "/images/sniffari-real.jpg"
+      },
+      {
+        "id": "refill",
+        "key": "refill",
+        "name": "Botanical Scent Refill",
+        "variant": "",
+        "price": 699,
+        "quantity": 1,
+        "lineTotal": 699,
+        "image": "/images/dog-food.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 16696,
+      "discount": 0,
+      "shipping": 149,
+      "tax": 2547,
+      "total": 16845
+    },
+    "subtotal": 16696,
+    "discount": 0,
+    "shipping": 149,
+    "tax": 2547,
+    "total": 16845,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T14:55:41.462Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "HWA-2026-13269",
+    "orderNumber": "HWA-2026-13269",
+    "status": "confirmed",
+    "placedAt": "2026-11-22T15:26:34.964Z",
+    "estimatedDelivery": "2026-11-27T15:26:34.964Z",
+    "email": "shopper@example.com",
+    "customer": {
+      "firstName": "Ananya",
+      "lastName": "Sharma",
+      "name": "Ananya Sharma",
+      "email": "shopper@example.com",
+      "phone": ""
+    },
+    "shippingAddress": {
+      "line1": "12, 4th Cross, Indiranagar",
+      "line2": "",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560038",
+      "country": "India"
+    },
+    "shippingMethod": "Standard delivery",
+    "items": [
+      {
+        "id": "sniffari",
+        "key": "sniffari-original-moss",
+        "name": "Sniffari",
+        "variant": "Original · Moss",
+        "price": 5999,
+        "quantity": 1,
+        "lineTotal": 5999,
+        "image": "/images/sniffari-product.jpg"
+      }
+    ],
+    "totals": {
+      "subtotal": 5999,
+      "discount": 0,
+      "shipping": 0,
+      "tax": 915,
+      "total": 5999
+    },
+    "subtotal": 5999,
+    "discount": 0,
+    "shipping": 0,
+    "tax": 915,
+    "total": 5999,
+    "timeline": [
+      {
+        "label": "Order placed",
+        "detail": "We have your order",
+        "at": "2026-11-22T15:26:34.964Z",
+        "done": true
+      },
+      {
+        "label": "Getting it ready",
+        "detail": "Packed with care in our studio",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "On its way",
+        "detail": "Tracking details emailed to you",
+        "at": null,
+        "done": false
+      },
+      {
+        "label": "Delivered",
+        "detail": "Let the sniffing begin",
+        "at": null,
+        "done": false
+      }
+    ]
+  }
+]

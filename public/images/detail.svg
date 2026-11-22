@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Close-up of a Sniffari treat pocket">
+  <defs>
+    <radialGradient id="bg2" cx="40%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#fbf7ee"/>
+      <stop offset="100%" stop-color="#e9dec9"/>
+    </radialGradient>
+    <linearGradient id="felt2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a4b996"/>
+      <stop offset="55%" stop-color="#708b68"/>
+      <stop offset="100%" stop-color="#4c684f"/>
+    </linearGradient>
+    <pattern id="fibres" width="34" height="30" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="3" stroke-linecap="round">
+        <path d="M4 24 C0 16 3 7 10 3"/>
+        <path d="M24 29 C20 20 23 11 30 7"/>
+      </g>
+      <g fill="#173d33" opacity="0.08">
+        <path d="M16 20 C12 12 15 2 22 -2 C27 5 25 15 19 21 Z"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg2)"/>
+  <path d="M0 300 C180 240 320 280 470 250 C620 220 720 250 800 230 L800 800 L0 800 Z" fill="url(#felt2)"/>
+  <path d="M0 300 C180 240 320 280 470 250 C620 220 720 250 800 230 L800 800 L0 800 Z" fill="url(#fibres)"/>
+
+  <!-- plush tufts -->
+  <g fill="#ffffff" opacity="0.16">
+    <path d="M60 420 C34 374 46 316 90 292 C116 330 110 388 76 422 Z"/>
+    <path d="M188 360 C164 314 176 256 220 232 C246 270 240 328 206 362 Z"/>
+    <path d="M330 330 C306 284 318 226 362 202 C388 240 382 298 348 332 Z"/>
+    <path d="M560 320 C536 274 548 216 592 192 C618 230 612 288 578 322 Z"/>
+    <path d="M700 430 C674 384 686 326 730 302 C756 340 750 398 716 432 Z"/>
+    <path d="M120 640 C94 594 106 536 150 512 C176 550 170 608 136 642 Z"/>
+    <path d="M620 660 C594 614 606 556 650 532 C676 570 670 628 636 662 Z"/>
+  </g>
+
+  <!-- pocket -->
+  <ellipse cx="400" cy="500" rx="196" ry="140" fill="#2c4634" opacity="0.92"/>
+  <ellipse cx="400" cy="486" rx="160" ry="108" fill="#1f3527" opacity="0.7"/>
+  <ellipse cx="396" cy="492" rx="104" ry="70" fill="#e9c78c"/>
+  <ellipse cx="390" cy="484" rx="78" ry="50" fill="#f7e3b8"/>
+  <path d="M330 466 C352 448 388 444 412 452" fill="none" stroke="#ffffff" stroke-opacity="0.45" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- treat pod marking -->
+  <circle cx="398" cy="496" r="26" fill="#173d33" opacity="0.9"/>
+  <g fill="#f7f1e3">
+    <ellipse cx="398" cy="502" rx="9" ry="7"/>
+    <ellipse cx="386" cy="489" rx="4" ry="5"/>
+    <ellipse cx="396" cy="484" rx="4" ry="5"/>
+    <ellipse cx="407" cy="486" rx="4" ry="5"/>
+    <ellipse cx="414" cy="495" rx="4" ry="5"/>
+  </g>
+
+  <!-- sniffing dog nose -->
+  <g transform="translate(600 190) rotate(18)">
+    <path d="M-10 0 C70 0 130 44 130 104 C130 164 70 202 -10 202 C-70 202 -108 162 -108 104 C-108 44 -70 0 -10 0 Z" fill="#3c2b20"/>
+    <ellipse cx="-58" cy="86" rx="20" ry="28" fill="#1b120d" transform="rotate(-20 -58 86)"/>
+    <ellipse cx="42" cy="86" rx="20" ry="28" fill="#1b120d" transform="rotate(20 42 86)"/>
+    <path d="M-8 118 C-4 150 4 150 10 118" fill="none" stroke="#6e5340" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-84 128 L-150 116 M-80 148 L-146 152 M72 128 L142 112 M70 148 L138 150" stroke="#f5eee0" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <ellipse cx="-46" cy="44" rx="30" ry="16" fill="#ffffff" opacity="0.18" transform="rotate(-18 -46 44)"/>
+  </g>
+
+  <!-- scent dots -->
+  <g fill="#f7e3b8" opacity="0.7">
+    <circle cx="520" cy="420" r="6"/>
+    <circle cx="486" cy="448" r="4"/>
+    <circle cx="548" cy="386" r="4"/>
+  </g>
+</svg>
